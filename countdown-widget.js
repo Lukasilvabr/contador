@@ -110,7 +110,7 @@
         
         const minutes = Math.floor(remainingTime);
         const seconds = Math.round((remainingTime % 1) * 60);
-        
+
         timerElement.textContent = formatTime(minutes, seconds);
         container.style.display = remainingTime > 0 ? 'flex' : 'none';
       } else {
